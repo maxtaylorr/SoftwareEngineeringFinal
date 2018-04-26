@@ -11,12 +11,12 @@ We are developing an iOS app that serves the purpose of displaying bars in the C
 iOS devices
 
 # Features:
--Map Pins
--Bar rankings
--GPS routing
--Bar specials and deals
--Upvote/Downvote bars
--Popularity counter
+*Map Pins
+*Bar rankings
+*GPS routing
+*Bar specials and deals
+*Upvote/Downvote bars
+*Popularity counter
 
 # Use Case Diagram
 ![use case diagram](https://github.com/maxtaylorr/SoftwareEngineeringFinal/blob/master/Final_UseCase.png)
