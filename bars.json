@@ -7,7 +7,8 @@
 		"cover": "5", 
 		"address": "1107 East Broadway",
 		"city": "Columbia",
-		"state:" "MO"
+		"state:" "MO",
+		"image": "fieldhouse"
 		},
 		
 		{  
@@ -16,7 +17,8 @@
 		"cover": "5-10", 
 		"address": "29 South 10th Street",
 		"city": "Columbia",
-		"state": "MO"
+		"state": "MO",
+		"image": "harpos",
 		},
 		
 		{ 
@@ -25,31 +27,35 @@
 		"cover": "No cover!", 
 		"Address": "100 South 9th Street",
 		"city": "Columbia",
-		"state": "MO"
+		"state": "MO",
+		"image": "shotbar"
 		},
 		
 		{ 
-		"name":"Campus Bar & Grill",
-		"phone":"573-817-0996",
-		"cover":"$0-5", 
-		"Address":"304 S 9th Street",
-		"city":"Columbia, MO"
+		"name": "Campus Bar & Grill",
+		"phone": "573-817-0996",
+		"cover": "$0-5", 
+		"Address": "304 S 9th Street",
+		"city": "Columbia, MO",
+		"image": "campus"
 		},
 		
 		{ 
-		"name":"The Roof",
-		"phone":"573-875-7000",
-		"cover":"No cover!", 
-		"Address":"1111 East Broadway, 8th Floor",
-		"city":"Columbia, MO" 
+		"name": "The Roof",
+		"phone": "573-875-7000",
+		"cover": "No cover!", 
+		"Address": "1111 East Broadway, 8th Floor",
+		"city": "Columbia, MO",
+		"image": "roof"
 		},
 		
 		{ 
-		"name":"International Tap House",
-		"phone":"573-443-1401",
-		"cover":"No cover!", 
-		"Address":"308 South 9th Street",
-		"city":"Columbia, MO"
+		"name": "International Tap House",
+		"phone": "573-443-1401",
+		"cover": "No cover!", 
+		"Address": "308 South 9th Street",
+		"city": "Columbia, MO",
+		"image": "taphouse"
 		},
 		
 		{ 
@@ -57,7 +63,8 @@
 		"phone":"573-256-1205",
 		"cover":"No cover!", 
 		"Address":"7 Hitt Street",
-		"city":"Columbia, MO" 
+		"city":"Columbia, MO",
+		"image": "gunter"
 		}
 	]
 }
