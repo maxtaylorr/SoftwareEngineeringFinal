@@ -36,7 +36,8 @@
 		"phone": "573-817-0996",
 		"cover": "$0-5", 
 		"Address": "304 S 9th Street",
-		"city": "Columbia, MO",
+		"city": "Columbia",
+		"state": "MO",
 		"image": "campus"
 		},
 		
@@ -45,7 +46,8 @@
 		"phone": "573-875-7000",
 		"cover": "No cover!", 
 		"Address": "1111 East Broadway, 8th Floor",
-		"city": "Columbia, MO",
+		"city": "Columbia",
+		"state": "MO",
 		"image": "roof"
 		},
 		
@@ -54,7 +56,8 @@
 		"phone": "573-443-1401",
 		"cover": "No cover!", 
 		"Address": "308 South 9th Street",
-		"city": "Columbia, MO",
+		"city": "Columbia",
+		"state": "MO",
 		"image": "taphouse"
 		},
 		
@@ -63,7 +66,8 @@
 		"phone":"573-256-1205",
 		"cover":"No cover!", 
 		"Address":"7 Hitt Street",
-		"city":"Columbia, MO",
+		"city":"Columbia",
+		"state": "MO",
 		"image": "gunter"
 		}
 	]
