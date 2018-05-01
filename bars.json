@@ -1,0 +1,29 @@
+{
+    "status": "ok",
+    "bars": [
+	{
+	"name": "FieldHouse",
+  	"phone: "573-554-1485",
+  	"cover": "5", 
+  	"address": "1107 East Broadway",
+  	"city": "Columbia",
+	"state:" "MO"
+	},
+	{  
+	"name": "Harpos",
+	"phone: "573-442-5418",
+	"cover": "5-10", 
+	"address": "29 South 10th Street",
+	"city": "Columbia",
+	"state": "MO"
+	},
+	{ 
+	"name": "The Shot Bar",
+	"phone: "573-442-4998",
+	"cover": "No cover!", 
+	"Address": "100 South 9th Street",
+	"city": "Columbia",
+	"state": "MO"
+	}
+    ]
+}
