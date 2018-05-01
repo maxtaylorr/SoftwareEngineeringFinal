@@ -1,58 +1,67 @@
-"status": "ok",
-    "bars": [
-	{
-	"name": "FieldHouse",
-  	"phone: "573-554-1485",
- 	"cover": "5", 
- 	"address": "1107 East Broadway",
-	"city": "Columbia",
-	"state:" "MO"
-	},
-	{  
-	"name": "Harpos",
-	"phone: "573-442-5418",
-	"cover": "5-10", 
-	"address": "29 South 10th Street",
-	"city": "Columbia",
-	"state": "MO"
-	},
-	{ 
-	"name": "The Shot Bar",
-	"phone: "573-442-4998",
-	"cover": "No cover!", 
-	"Address": "100 South 9th Street",
-	"city": "Columbia",
-	"state": "MO"
-	},
-	{ 
-	"name":"Campus Bar & Grill",
-	"phone:"573-817-0996",
-	"cover":"$0-5", 
-	"Address":"304 S 9th Street",
-	"city":"Columbia, MO"
-	},
-	{ 
-	"name":"The Roof",
-	"phone:"573-875-7000",
-	"cover":"No cover!", 
-	"Address":"1111 East Broadway, 8th Floor",
-	"city":"Columbia, MO" 
-	},
-	{ 
-	"name":"International Tap House",
-	"phone:"573-443-1401",
-	"cover":"No cover!", 
-	"Address":"308 South 9th Street",
-	"city":"Columbia, MO"
-	},
-	{ 
-	"name":"Gunter Hans",
-	"phone:"573-256-1205",
-	"cover":"No cover!", 
-	"Address":"7 Hitt Street",
-	"city":"Columbia, MO" 
-	}
-			]
+{
+	"status": "ok",
+	"bars": [
+		{
+		"name": "FieldHouse",
+		"phone": "573-554-1485",
+		"cover": "5", 
+		"address": "1107 East Broadway",
+		"city": "Columbia",
+		"state:" "MO"
+		},
+		
+		{  
+		"name": "Harpos",
+		"phone": "573-442-5418",
+		"cover": "5-10", 
+		"address": "29 South 10th Street",
+		"city": "Columbia",
+		"state": "MO"
+		},
+		
+		{ 
+		"name": "The Shot Bar",
+		"phone": "573-442-4998",
+		"cover": "No cover!", 
+		"Address": "100 South 9th Street",
+		"city": "Columbia",
+		"state": "MO"
+		},
+		
+		{ 
+		"name":"Campus Bar & Grill",
+		"phone":"573-817-0996",
+		"cover":"$0-5", 
+		"Address":"304 S 9th Street",
+		"city":"Columbia, MO"
+		},
+		
+		{ 
+		"name":"The Roof",
+		"phone":"573-875-7000",
+		"cover":"No cover!", 
+		"Address":"1111 East Broadway, 8th Floor",
+		"city":"Columbia, MO" 
+		},
+		
+		{ 
+		"name":"International Tap House",
+		"phone":"573-443-1401",
+		"cover":"No cover!", 
+		"Address":"308 South 9th Street",
+		"city":"Columbia, MO"
+		},
+		
+		{ 
+		"name":"Gunter Hans",
+		"phone":"573-256-1205",
+		"cover":"No cover!", 
+		"Address":"7 Hitt Street",
+		"city":"Columbia, MO" 
+		}
+		
+		]
+}
 		
 		
 		
