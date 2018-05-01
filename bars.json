@@ -8,7 +8,7 @@
 		"address": "1107 East Broadway",
 		"city": "Columbia",
 		"state": "MO",
-		"image": "fieldhouse"
+		"barName": "fieldhouse"
 		},
 		
 		{  
@@ -18,7 +18,7 @@
 		"address": "29 South 10th Street",
 		"city": "Columbia",
 		"state": "MO",
-		"image": "harpos",
+		"barName": "harpos",
 		},
 		
 		{ 
@@ -28,7 +28,7 @@
 		"Address": "100 South 9th Street",
 		"city": "Columbia",
 		"state": "MO",
-		"image": "shotbar"
+		"barName": "shotbar"
 		},
 		
 		{ 
@@ -38,7 +38,7 @@
 		"Address": "304 S 9th Street",
 		"city": "Columbia",
 		"state": "MO",
-		"image": "campus"
+		"barName": "campus"
 		},
 		
 		{ 
@@ -48,7 +48,7 @@
 		"Address": "1111 East Broadway, 8th Floor",
 		"city": "Columbia",
 		"state": "MO",
-		"image": "roof"
+		"barName": "roof"
 		},
 		
 		{ 
@@ -58,7 +58,7 @@
 		"Address": "308 South 9th Street",
 		"city": "Columbia",
 		"state": "MO",
-		"image": "taphouse"
+		"barName": "taphouse"
 		},
 		
 		{ 
@@ -68,7 +68,7 @@
 		"Address":"7 Hitt Street",
 		"city":"Columbia",
 		"state": "MO",
-		"image": "gunter"
+		"barName": "gunter"
 		}
 	]
 }
