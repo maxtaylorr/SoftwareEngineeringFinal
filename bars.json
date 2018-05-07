@@ -1,74 +1,75 @@
 {
-	"status": "ok",
+    "status": "ok",
 	"bars": [
-		{
-		"name": "FieldHouse",
-		"phone": "573-554-1485",
-		"cover": "5", 
-		"address": "1107 East Broadway",
-		"city": "Columbia",
-		"state": "MO",
-		"barName": "fieldhouse"
-		},
-		
+       {
+       "name": "FieldHouse",
+       "phone" : "573-554-1485",
+       "cover" : "$5",
+       "address" : "1107 East Broadway",
+       "city" : "Columbia",
+       "state" : "MO",
+       "barName" : "fh",
+       "deal": "Penny Pitchers"
+        },
 		{  
 		"name": "Harpos",
-		"phone": "573-442-5418",
-		"cover": "5-10", 
-		"address": "29 South 10th Street",
-		"city": "Columbia",
-		"state": "MO",
-		"barName": "harpos",
+		"phone" : "573-442-5418",
+		"cover" : "$5-10",
+		"address" : "29 South 10th Street",
+        "city" : "Columbia",
+		"state" : "MO",
+		"barName" : "harpos",
+        "deal" : "1$ Shots & Progressive Wells"
 		},
-		
 		{ 
 		"name": "The Shot Bar",
-		"phone": "573-442-4998",
-		"cover": "No cover!", 
-		"Address": "100 South 9th Street",
-		"city": "Columbia",
-		"state": "MO",
-		"barName": "shotbar"
+		"phone" : "573-442-4998",
+		"cover" : "No cover!",
+		"address" : "100 South 9th Street",
+		"city" : "Columbia",
+		"state" : "MO",
+		"barName" : "shotbar",
+        "deal" : "$2 Any Shot"
 		},
-		
 		{ 
 		"name": "Campus Bar & Grill",
-		"phone": "573-817-0996",
-		"cover": "$0-5", 
-		"Address": "304 S 9th Street",
-		"city": "Columbia",
-		"state": "MO",
-		"barName": "campus"
+		"phone" : "573-817-0996",
+		"cover" : "$0-5",
+		"address" : "304 S 9th Street",
+		"city" : "Columbia",
+		"state" : "MO",
+		"barName" : "campus",
+        "deal" : "$2 Draft Beers"
 		},
-		
 		{ 
 		"name": "The Roof",
-		"phone": "573-875-7000",
-		"cover": "No cover!", 
-		"Address": "1111 East Broadway, 8th Floor",
-		"city": "Columbia",
-		"state": "MO",
-		"barName": "roof"
-		},
-		
+		"phone" : "573-875-7000",
+		"cover" : "No cover!",
+		"address" : "1111 East Broadway, 8th Floor",
+		"city" : "Columbia",
+		"state" : "MO",
+		"barName" : "roof",
+        "deal" : "$3 Tequila Shots"
+ 		},
 		{ 
 		"name": "International Tap House",
-		"phone": "573-443-1401",
-		"cover": "No cover!", 
-		"Address": "308 South 9th Street",
-		"city": "Columbia",
-		"state": "MO",
-		"barName": "taphouse"
+		"phone" : "573-443-1401",
+		"cover" : "No cover!",
+		"address" : "308 South 9th Street",
+		"city" : "Columbia",
+		"state" : "MO",
+		"barName" : "taphouse",
+        "deal" : "$3 Domestic Aluminums"
 		},
-		
 		{ 
-		"name":"Gunter Hans",
-		"phone":"573-256-1205",
-		"cover":"No cover!", 
-		"Address":"7 Hitt Street",
-		"city":"Columbia",
-		"state": "MO",
-		"barName": "gunter"
+		"name" : "Gunter Hans",
+		"phone" : "573-256-1205",
+		"cover" : "No cover!",
+		"address" : "7 Hitt Street",
+		"city" : "Columbia",
+		"state" : "MO",
+		"barName" : "gunter",
+        "deal" : "$4 Liter of Beer"
 		}
 	]
 }

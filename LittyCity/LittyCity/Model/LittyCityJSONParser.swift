@@ -8,35 +8,35 @@
 
 import Foundation
 
-class LittyCityJsonParser {
+class LittyCityJSONParser {
     
     class func parse(_ data: Data) -> [Bar] {
-        var bars = [Bar]()
+        var barObjects = [Bar]()
     
-    if let json = try?JSONSerialization.jsonObject(with: data, options: []),
-       let root = json as? [String: Any],
-       let status = root["status"] as? String,
-       status == "ok" {
+        if let json = try? JSONSerialization.jsonObject(with: data, options: []),
+            let root = json as? [String: Any],
+            let status = root["status"] as? String,
+            status == "ok" {
     
-        if let barArray = root["bars"] as? [Any] {
-            for bar in barArray {
+        if let bars = root["bars"] as? [Any] {
+            for bar in bars {
                 if let bar = bar as? [String: String] {
                     if let name = bar["name"],
-                       let phoneNumber = bar["phoneNumber"],
+                       let phoneNumber = bar["phone"],
                        let cover = bar["cover"],
                        let address = bar["address"],
                        let city = bar["city"],
                        let state = bar["state"],
-                       let barName = bar["barName"] {
-                    
-                       if let newBar = Bar(barName: barName, name: name, phoneNumber: phoneNumber, cover: cover, address:                     address, city: city, state: state) {
-                        bars.append(newBar)
+                       let barName = bar["barName"],
+                       let deal = bar["deal"] {
+                        if let newBar = Bar(name: name, phoneNumber: phoneNumber, cover: cover, address:                     address, city: city, state: state, barName: barName, deal: deal) {
+                        barObjects.append(newBar)
                         }
                      }
                   }
                }
             }
         }
-        return bars
+        return barObjects
     }
 }

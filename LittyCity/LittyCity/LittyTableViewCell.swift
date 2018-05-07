@@ -10,6 +10,10 @@ import UIKit
 
 class LittyTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var barIconImageView: UIImageView!
+    @IBOutlet weak var barNameLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -8,11 +8,17 @@
 
 import UIKit
 
-class LittyMainViewController: UIViewController {
+class LittyMainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var littyCityTableView: UITableView!
+    
+    let barObjects = LittyCityJSONLoader.load(fileName: "bars")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.title = "Nearby Bars"
+        
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +27,33 @@ class LittyMainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return barObjects.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "barCell", for: indexPath)
+        
+        if let cell = cell as? LittyTableViewCell {
+            let barObject = barObjects[indexPath.row]
+            cell.barIconImageView.image = barObject.barName.image
+            cell.barNameLabel.text = barObject.name
+            cell.addressLabel.text = barObject.address
+        }
+        
+        return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? LittyDetailViewController,
+            let row = littyCityTableView.indexPathForSelectedRow?.row {
+            destination.bar = barObjects[row]
+        }
+    }
 
     /*
     // MARK: - Navigation

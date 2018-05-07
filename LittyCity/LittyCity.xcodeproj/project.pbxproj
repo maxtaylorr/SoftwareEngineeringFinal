@@ -18,6 +18,7 @@
 		4AED488B209908D8007626EB /* LittyCityJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AED488A209908D8007626EB /* LittyCityJSONLoader.swift */; };
 		4AED488D20990912007626EB /* BarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AED488C20990912007626EB /* BarObject.swift */; };
 		4AED488F20990E9A007626EB /* LittyCityJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AED488E20990E9A007626EB /* LittyCityJSONParser.swift */; };
+		4AED4893209EC88F007626EB /* bars.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AED4892209EC88F007626EB /* bars.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4AED488A209908D8007626EB /* LittyCityJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittyCityJSONLoader.swift; sourceTree = "<group>"; };
 		4AED488C20990912007626EB /* BarObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarObject.swift; sourceTree = "<group>"; };
 		4AED488E20990E9A007626EB /* LittyCityJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittyCityJSONParser.swift; sourceTree = "<group>"; };
+		4AED4892209EC88F007626EB /* bars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bars.json; path = ../../../bars.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		4AED4887209905B2007626EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4AED4892209EC88F007626EB /* bars.json */,
 				4AED4888209905E9007626EB /* BarImage.swift */,
 				4AED488C20990912007626EB /* BarObject.swift */,
 				4AED488E20990E9A007626EB /* LittyCityJSONParser.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AED487A209904F8007626EB /* LaunchScreen.storyboard in Resources */,
+				4AED4893209EC88F007626EB /* bars.json in Resources */,
 				4AED4877209904F8007626EB /* Assets.xcassets in Resources */,
 				4AED4875209904F8007626EB /* Main.storyboard in Resources */,
 			);

@@ -14,7 +14,7 @@ class LittyCityJSONLoader {
         
         if let path = Bundle.main.path(forResource: fileName, ofType: "json"),
            let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
-             bars = LittyCityJsonParser.parse(data)
+               bars = LittyCityJSONParser.parse(data)
         }
         return bars
     }

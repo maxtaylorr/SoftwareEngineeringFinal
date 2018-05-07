@@ -10,11 +10,12 @@ import UIKit
 
 enum BarImage: String {
     case harpos
-    case fieldhouse
+    case fh
     case shotbar
     case campus
     case roof
     case taphouse
+    case gunter
     
     var image: UIImage? {
         return UIImage(named: self.rawValue + "Icon")

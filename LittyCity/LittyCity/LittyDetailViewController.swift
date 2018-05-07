@@ -10,8 +10,22 @@ import UIKit
 
 class LittyDetailViewController: UIViewController {
 
+    var bar: Bar?
+    
+    @IBOutlet weak var dealLabel: UILabel!
+    @IBOutlet weak var coverLabel: UILabel!
+    @IBOutlet weak var barNameLabel: UILabel!
+    @IBOutlet weak var barIconImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = ""
+        
+        barIconImageView.image = bar?.barName.image
+        barNameLabel.text = bar?.name
+        coverLabel.text = bar?.cover
+        dealLabel.text = bar?.deal
 
         // Do any additional setup after loading the view.
     }
