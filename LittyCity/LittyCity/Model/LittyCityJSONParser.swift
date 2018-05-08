@@ -25,11 +25,9 @@ class LittyCityJSONParser {
                        let phoneNumber = bar["phone"],
                        let cover = bar["cover"],
                        let address = bar["address"],
-                       let city = bar["city"],
-                       let state = bar["state"],
                        let barName = bar["barName"],
                        let deal = bar["deal"] {
-                        if let newBar = Bar(name: name, phoneNumber: phoneNumber, cover: cover, address:                     address, city: city, state: state, barName: barName, deal: deal) {
+                        if let newBar = Bar(name: name, phoneNumber: phoneNumber, cover: cover, address:                     address, barName: barName, deal: deal) {
                         barObjects.append(newBar)
                         }
                      }
