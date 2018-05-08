@@ -1,11 +1,16 @@
 # SoftwareEngineeringFinal
 The final project for software engineering 4320.
 
+# Project Members
+Kolbe Weathington
+Max Taylor
+Sam Burnett
+
 # Completion Date:
 May 4th, 2018
 
 # Description:
-We are developing an iOS app that serves the purpose of displaying bars in the Columbia, MO area. It will display contact information, location, and their respective deals/cover fees. There will also be a GPS map that will give you directions from your current location and allow you change destinations between bars. Users can check in to the bars they are at, which will give them the option of boosting the Lit Meter or decreasing it. This will give other users in the area an idea if the bar is busy or a desolate wasteland. The bars will be able to be filtered in order of distance or by their lit meters. This will give users the best idea of where to go for the night depending on the vibe they are looking for. 
+We are developing an iOS app that serves the purpose of displaying bars in the Columbia, MO area. It will display contact information, location, and their respective deals/cover fees. There will also be a GPS map that will give you directions from your current location and allow you change destinations between bars. The app will tell the user popular bars in the area and the deals, phone number, and other information about said bar.
 
 # Platforms:
 * iOS devices
@@ -15,8 +20,6 @@ We are developing an iOS app that serves the purpose of displaying bars in the C
 * Bar rankings
 * GPS routing
 * Bar specials and deals
-* Upvote/Downvote bars
-* Popularity counter
 
 # Use Case Diagram
 ![use case diagram](https://github.com/maxtaylorr/SoftwareEngineeringFinal/blob/master/Final_UseCase.png)
